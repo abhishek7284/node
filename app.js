@@ -9,7 +9,7 @@ async function makeRequest() {
           url : BASE_URL + '/auth',
           headers: {
               "content-type":"application/x-www-form-urlencoded",
-              "Authorization":"Bearer 3083bb11-5241-4cda-99aa-3a2bb74119c6"
+              "Authorization":"Bearer "
                    }
       });
       
