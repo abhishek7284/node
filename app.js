@@ -1,6 +1,6 @@
 const axios = require("axios");
 const BASE_URL = `https://integrate.elluciancloud.com`;
-var auth;
+let auth;
 
 async function makeRequest() {
   

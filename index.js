@@ -1,7 +1,6 @@
-const axios = require("axios");
 const app = require('./app');
-var userData;
-var output;
+let userData;
+let output;
 
 exports.handler = async (event) => {
   
